@@ -413,9 +413,9 @@ public class ThumbTextView extends FrameLayout implements View.OnClickListener{
             a[i]=list.get(i);
         }
 
-        ObjectAnimator objectAnimator=ObjectAnimator.ofFloat(foldBtn,"alpha",0.9f,0.6f);
+        ObjectAnimator objectAnimator=ObjectAnimator.ofFloat(foldBtn,"alpha",0.9f,0.6f,0);
 
-        ObjectAnimator objectAnimator2=ObjectAnimator.ofFloat(foldBtn, "translationY", 0, 60f);
+        ObjectAnimator objectAnimator2=ObjectAnimator.ofFloat(foldBtn, "translationY", 0, 120f);
 
         AnimatorSet firstSet=new AnimatorSet();
         firstSet.playTogether(objectAnimator, objectAnimator2);

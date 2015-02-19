@@ -18,6 +18,8 @@
         android:layout_height="wrap_content">
     <TextView
         android:id="@+id/contentTV"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
         android:textAppearance="@style/CommonTextAppearance_Mini_Gray"
         android:layout_width="fill_parent"
         android:text="5】尼玛，这招也太狠了！ 这次绝逼是友尽了！希望情人节全国停电，气死那些唱歌喝酒泡吧看电影的，再来一场鹅毛大雪，冻死那些牵手逛街的，最后警察集体搜查，憋死那些想开房的~反正情人节我在家，不过了！【13】多大仇多大怨？为什么没有红烧前男友？差评！（转）眼见杯子要被打翻在地，主人急忙高呼住爪！！[lxhx惊]于是喵星人真的住爪了……一下。。。。"
@@ -42,6 +44,7 @@
         android:text="收起来."
         android:textAppearance="@style/CommonTextAppearance_Middle_Black"
 
+        android:background="@drawable/button_bg"
         android:layout_alignParentBottom="true"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
