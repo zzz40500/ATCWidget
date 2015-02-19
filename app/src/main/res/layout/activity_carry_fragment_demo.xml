@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    tools:context="com.vserve.ottodemo.SecondActivity">
+
+
+    <com.mingle.widget.CarryFragmentLayout
+        android:id="@+id/carryFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <TextView
+                    android:id="@+id/button"
+                    android:paddingTop="8dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:paddingLeft="13dp"
+                    android:text="人物:" />
+
+                <TextView
+                    android:id="@+id/button1"
+                    android:paddingTop="8dp"
+                    android:paddingLeft="13dp"
+                    android:textSize="22dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button"
+                    android:text="时间" />
+
+                <TextView
+                    android:id="@+id/button2"
+                    android:paddingTop="8dp"
+                    android:textSize="22dp"
+                    android:paddingLeft="13dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button1"
+                    android:text="地点" />
+
+                <TextView
+                    android:id="@+id/button3"
+                    android:textSize="22dp"
+                    android:paddingTop="8dp"
+                    android:paddingLeft="13dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button2"
+                    android:text="天气" />
+
+                <TextView
+                    android:id="@+id/button4"
+                    android:textSize="22dp"
+                    android:paddingTop="8dp"
+                    android:paddingLeft="13dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button3"
+                    android:text="省份" />
+
+                <TextView
+                    android:id="@+id/button5"
+                    android:textSize="22dp"
+                    android:paddingTop="8dp"
+                    android:paddingLeft="13dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button4"
+                    android:text="房子" />
+
+                <TextView
+                    android:id="@+id/button6"
+                    android:textSize="22dp"
+                    android:paddingLeft="13dp"
+                    android:paddingTop="8dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button5"
+                    android:onClick="onClick"
+                    android:text="媳妇" />
+                <TextView
+                    android:layout_below="@+id/button6"
+                    android:layout_width="fill_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="200dp"/>
+            </RelativeLayout>
+        </ScrollView>
+
+    </com.mingle.widget.CarryFragmentLayout>
+</LinearLayout>

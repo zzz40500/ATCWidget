@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <com.mingle.widget.AnimRelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:id="@+id/l1"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="发件人:"
+                android:textSize="19dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:text="wyh40500@gmail.com"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/l1"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="收件人:"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="19dp"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="4dp"
+            android:id="@+id/l3"
+            android:layout_below="@+id/l2"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:hint="主题:"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/l4"
+            android:layout_below="@+id/l3"
+            android:hint="正文:"
+            android:gravity="top"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    </com.mingle.widget.AnimRelativeLayout>
+
+
+
+</RelativeLayout>
